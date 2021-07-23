@@ -8,7 +8,7 @@ import heapq
 import math
 
 tf.disable_eager_execution()
-
+#comment
 class Dataset():
     def __init__(self, filename):
         self.data, self.shape = self.getData(filename)
